@@ -1,5 +1,5 @@
 import pytest
-from caesercipher import encrypt, decrypt
+from caesercipher import encrypt, decrypt,enter_message
 from unittest.mock import patch
 from caesercipher import enter_message
 
