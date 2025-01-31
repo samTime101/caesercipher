@@ -1,6 +1,7 @@
 import pytest
 from caesercipher import encrypt, decrypt
 from unittest.mock import patch
+from caesercipher import enter_message
 
 def test_encrypt():
     assert encrypt('HELLO', 3) == 'KHOOR'
