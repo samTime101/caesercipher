@@ -5,11 +5,11 @@ from caesercipher import enter_message
 
 def test_encrypt():
     assert encrypt('HELLO', 3) == 'KHOOR'
-    assert encrypt('WORLD', 5) == 'BTMQI'
+    assert encrypt('WORLD', 5) == 'BTWQI'
 
 def test_decrypt():
     assert decrypt('KHOOR', 3) == 'HELLO'
-    assert decrypt('BTMQI', 5) == 'WORLD'
+    assert decrypt('BTWQI', 5) == 'WORLD'
 
 def test_encrypt_with_input_mock():
     with patch('builtins.input', side_effect=['e', 'HELLO', '3']):
