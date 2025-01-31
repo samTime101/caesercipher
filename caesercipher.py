@@ -172,4 +172,6 @@ def main():
                 return  
             else:
                 print('Invalid , please choose y or n')
-main()
+
+if __name__ == "__main__":
+    main()
